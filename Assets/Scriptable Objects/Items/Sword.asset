@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 046d79a0f035acf438645aff80c0b432, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  uiDisplay: {fileID: -4330735260778472016, guid: 2fd2fe7ff5ac7d642a49d8fb3f3b2e4e, type: 3}
+  stackable: 0
+  type: 2
+  description: 'use the pointy end
+
+'
+  data:
+    Name: 
+    Id: 4
+    buffs: []
