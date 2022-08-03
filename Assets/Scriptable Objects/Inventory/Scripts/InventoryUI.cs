@@ -25,34 +25,34 @@ public class InventoryUI : MonoBehaviour
 			inventoryUI.SetActive
 			(!inventoryUI.activeSelf);
 
-			//if (Input.GetButtonDown("Inventory"))
-			//{
+            if (Input.GetButtonDown("Inventory"))
+            {
 
-			//	didOpen = !didOpen;
-			//	inventoryUI.SetActive(didOpen); 
-                
-				
-
-			//	if (didOpen)
-			//	{
-
-			//		Cursor.lockState = CursorLockMode.None;
-			//		Cursor.visible = true;
+                didOpen = !didOpen;
+                inventoryUI.SetActive(didOpen);
 
 
-			//	}
 
-			//	else
-			//	{
+                if (didOpen)
+                {
 
-			//		Cursor.lockState = CursorLockMode.Locked;
-			//		Cursor.visible = false;
-
-			//	}
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.visible = true;
 
 
-			//}
-		}
+                }
+
+                else
+                {
+
+                    Cursor.lockState = CursorLockMode.Locked;
+                    Cursor.visible = false;
+
+                }
+
+
+            }
+        }
 	}
 }
 
